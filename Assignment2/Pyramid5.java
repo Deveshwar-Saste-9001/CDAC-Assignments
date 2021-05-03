@@ -7,9 +7,9 @@ public class Pyramid5 {
             int cont = 0;
             for (int j = 0; j <= 18; j++) {
                 if (j > n && j < (18 - (n))) {
-                    System.out.print((cont));
+                    System.out.print(cont+" ");
                 } else {
-                    System.out.print(" ");
+                    System.out.print("  ");
                 }
                 if (j < 9) {
                     cont++;
